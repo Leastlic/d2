@@ -36,12 +36,12 @@ ItemDisplay[hp4 CLVL>70]:
 ItemDisplay[mp4 CLVL>70]:
 
 ItemDisplay[hp4]: %RED%[%GRAY%HP%RED%] // Greater Healing potion
-ItemDisplay[hp5]: %RED%[H%WHITE%P%RED%] // Super Healing potion
+ItemDisplay[hp5]: %RED%[%WHITE%HP%RED%] // Super Healing potion
 ItemDisplay[mp4]: %BLUE%[%GRAY%MP%BLUE%] // Greater Mana potion
-ItemDisplay[mp5]: %BLUE%[M%WHITE%P%BLUE%] // Super Mana potion
+ItemDisplay[mp5]: %BLUE%[%WHITE%MP%BLUE%] // Super Mana potion
 
-ItemDisplay[rvs]: %PURPLE%[re%WHITE%juv%PURPLE%] // Rejuvenation potion
-ItemDisplay[rvl]: %PURPLE%[RE%WHITE%JUV%PURPLE%] // Full Rejuvenation potion
+ItemDisplay[rvs]: %PURPLE%[rejuv] // Rejuvenation potion
+ItemDisplay[rvl]: %PURPLE%[REJUV] // Full Rejuvenation potion
 
 //Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
@@ -77,8 +77,8 @@ ItemDisplay[leg]: %NAME%
 // after first X levels
 ItemDisplay[key]: %GRAY%Key
 
-ItemDisplay[tsc]: %BLUE%T%WHITE%P
-ItemDisplay[isc]: %GREEN%I%WHITE%D
+ItemDisplay[tsc]: %BLUE%[%WHITE%TP%BLUE%]
+ItemDisplay[isc]: %GREEN%[%WHITE%ID%GREEN%]
 
 ItemDisplay[vps]: %BLACK%Stamina
 ItemDisplay[wms]: 
