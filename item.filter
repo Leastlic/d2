@@ -77,8 +77,8 @@ ItemDisplay[leg]: %NAME%
 // after first X levels
 ItemDisplay[key]: %GRAY%Key
 
-ItemDisplay[tsc]: %BLUE%[%WHITE%TP%BLUE%]
-ItemDisplay[isc]: %GREEN%[%WHITE%ID%GREEN%]
+ItemDisplay[tsc]: %BLUE%T%WHITE%p%  // Portal Scroll
+ItemDisplay[isc]: %GREEN%I%WHITE%d // Identify Scroll
 
 ItemDisplay[vps]: %BLACK%Stamina
 ItemDisplay[wms]: 
