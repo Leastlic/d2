@@ -40,8 +40,8 @@ ItemDisplay[hp5]: %RED%[%WHITE%HP%RED%] // Super Healing potion
 ItemDisplay[mp4]: %BLUE%[%GRAY%MP%BLUE%] // Greater Mana potion
 ItemDisplay[mp5]: %BLUE%[%WHITE%MP%BLUE%] // Super Mana potion
 
-ItemDisplay[rvs]: %PURPLE%[rejuv] // Rejuvenation potion
-ItemDisplay[rvl]: %PURPLE%[REJUV] // Full Rejuvenation potion
+ItemDisplay[rvs]: %PURPLE%[%WHITE%re%PURPLE%] // Rejuvenation potion
+ItemDisplay[rvl]: %PURPLE%[%WHITE%RE%PURPLE%] // Full Rejuvenation potion
 
 //Gems
 ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
