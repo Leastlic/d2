@@ -44,10 +44,10 @@ ItemDisplay[rvs]: %PURPLE%[%WHITE%re%PURPLE%] // Rejuvenation potion
 ItemDisplay[rvl]: %PURPLE%[%WHITE%RE%PURPLE%] // Full Rejuvenation potion
 
 //Gems
-ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]:
-ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]:
 ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc) CLVL<19]: %NAME%
-ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip
+ItemDisplay[(gcv OR gcw OR gcg OR gcr OR gcb OR gcy OR skc)]: %GRAY%chip[O]
+ItemDisplay[(gfv OR gfw OR gfg OR gfr OR gfb OR gfy OR skf) DIFFICULTY>0]: %GRAY%flaw[O]
+ItemDisplay[(gsv OR gsw OR gsg OR gsr OR gsb OR gsy OR sku) DIFFICULTY>1]: %GRAY%norm[O]
 ItemDisplay[gzv]: %GRAY%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[glw]: %GRAY%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[glg]: %GRAY%Emerald %ORANGE%[%GREEN%O%ORANGE%]
@@ -55,6 +55,7 @@ ItemDisplay[glr]: %GRAY%Ruby %ORANGE%[%RED%O%ORANGE%]
 ItemDisplay[glb]: %GRAY%Sapphire %ORANGE%[%BLUE%O%ORANGE%]
 ItemDisplay[gly]: %GRAY%Topaz %ORANGE%[%YELLOW%O%ORANGE%]
 ItemDisplay[skl]: %GRAY%Skull %ORANGE%[%GRAY%O%ORANGE%]
+
 ItemDisplay[gpv]: %ORANGE%P %WHITE%Amethyst %ORANGE%[%PURPLE%O%ORANGE%]
 ItemDisplay[gpw]: %ORANGE%P %WHITE%Diamond %ORANGE%[%WHITE%O%ORANGE%]
 ItemDisplay[gpg]: %ORANGE%P %WHITE%Emerald %ORANGE%[%GREEN%O%ORANGE%]
